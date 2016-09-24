@@ -10388,7 +10388,7 @@ in
       inherit (texlive) scheme-small inconsolata helvetic texinfo fancyvrb cm-super;
     };
     openblas = openblasCompat;
-    withRecommendedPackages = false;
+    withRecommendedPackages = true;
     inherit (darwin.apple_sdk.frameworks) Cocoa Foundation;
     inherit (darwin) cf-private libobjc;
   };
